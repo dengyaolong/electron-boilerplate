@@ -1,0 +1,26 @@
+{
+  "name": "electron-boilerplate",
+  "version": "1.0.0",
+  "description": "a quick electron boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dengyaolong/electron-boilerplate.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "dengyaolong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dengyaolong/electron-boilerplate/issues"
+  },
+  "homepage": "https://github.com/dengyaolong/electron-boilerplate#readme",
+  "devDependencies": {
+    "electron": "^5.0.0",
+    "gulp": "^4.0.1"
+  }
+}

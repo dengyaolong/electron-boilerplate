@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>关于</title>
+  </head>
+  <body>
+    <div class='page-about'>
+      <script>
+        const app = require('electron').remote.app
+        document.write(`
+        <div class='message'>
+          <div class="version">${app.getName()}</div>
+          <div class="version">版本号: v${app.getVersion()}</div>
+        </div>
+        `)
+      </script>
+    </div>
+  </body>
+</html>
